@@ -4,7 +4,8 @@ relative_links:
   enabled: true
   collections: true
 include:
-  - index.md
+  - README.md
   - tostas.md
   - OopJava.md
   - FpHaskell.md
+  - HarryPotterApi

@@ -1,4 +1,6 @@
 # Projects
+
+- [The Magical Harry Potter Api](https://joaogarrido98.github.io/markdowns/HarryPotterApi)
 - [Tostadas - Toasts for android](https://joaogarrido98.github.io/markdowns/tostas)
 - [Object Oriented Programming - Java](https://joaogarrido98.github.io/markdowns/OopJava)
 - [Computer Systems - Assembly & Java](https://joaogarrido98.github.io/markdowns/CompSystems)
