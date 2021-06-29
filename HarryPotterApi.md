@@ -136,14 +136,13 @@ Javascript will be used to show examples on how to use the API.
 <tr>
 <td> /ancestries </td>
 <td>
-
-```json
+<pre>
+<code>
 {
   "ancestry_id": 3,
   "ancestry_title": "half-blood"
 }
-```
-
+<code>
 </td>
 </tr>
 <tr>
