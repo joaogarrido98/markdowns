@@ -180,7 +180,7 @@ document.addEventListener("DOMContentLoaded", () => {
   fetch("url/characters")
     .then((response) => response.json())
     .then((data) => {
-      console.log(data);
+      //do what you need with the data
     });
 });
 ```
@@ -192,7 +192,7 @@ document.addEventListener("DOMContentLoaded", () => {
   fetch("url/characters/1")
     .then((response) => response.json())
     .then((data) => {
-      console.log(data);
+      //do what you need with the data
     });
 });
 ```
