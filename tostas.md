@@ -50,12 +50,12 @@ Display an error Toast:
 Tostas.error(this, "This is an error", Tostas.slow)
 ```
 
-Display an success Toast:
+Display a success Toast:
 ```kotlin
 Tostas.success(this, "This is a success", Tostas.slow)
 ```
 
-Display an warn Toast:
+Display a warn Toast:
 ```kotlin
 Tostas.warn(this, "This is a warning", Tostas.slow)
 ```
@@ -81,12 +81,12 @@ Display an error Toast:
 Tostas.error(Activity.this, "This is an error", Tostas.fast);
 ```
 
-Display an success Toast:
+Display a success Toast:
 ```Java
 Tostas.success(Activity.this, "This is a success", Tostas.fast);
 ```
 
-Display an warn Toast:
+Display a warn Toast:
 ```java
 Tostas.warn(Activity.this, "This is a warning", Tostas.fast);
 ```
