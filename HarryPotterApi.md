@@ -27,8 +27,8 @@ Javascript will be used to show examples on how to use the API.
 <tr>
 <td> /character </td>
 <td>
-
-```json
+<pre>
+<code>
 {
   "id": 1,
   "actor": "Daniel Radcliffe",
@@ -47,8 +47,8 @@ Javascript will be used to show examples on how to use the API.
   "species": "human",
   "name": "Harry Potter"
 }
-```
-
+</code>
+</pre>
 </td>
 </tr>
 <tr>
@@ -61,13 +61,14 @@ Javascript will be used to show examples on how to use the API.
 <td> /patronus </td>
 <td>
 
-```json
+<pre>
+<code>
 {
   "patronus_id": 2,
   "patronus_title": "stag"
 }
-```
-
+</code>
+</pre>
 </td>
 </tr>
 <tr>
@@ -79,14 +80,14 @@ Javascript will be used to show examples on how to use the API.
 <tr>
 <td> /spells </td>
 <td>
-
-```json
+<pre>
+<code>
 {
   "spell_id": 2,
   "spell_title": "accio"
 }
-```
-
+</code>
+</pre>
 </td>
 </tr>
 <tr>
@@ -98,14 +99,14 @@ Javascript will be used to show examples on how to use the API.
 <tr>
 <td> /species </td>
 <td>
-
-```json
+<pre>
+<code>
 {
   "species_id": 2,
   "species_title": "werewolf"
 }
-```
-
+</code>
+</pre>
 </td>
 </tr>
 <tr>
@@ -117,14 +118,14 @@ Javascript will be used to show examples on how to use the API.
 <tr>
 <td> /houses </td>
 <td>
-
-```json
+<pre>
+<code>
 {
   "house_id": 4,
   "house_title": "Slytherin"
 }
-```
-
+</code>
+</pre>
 </td>
 </tr>
 <tr>
@@ -142,7 +143,7 @@ Javascript will be used to show examples on how to use the API.
   "ancestry_id": 3,
   "ancestry_title": "half-blood"
 }
-<code>
+</code>
 </pre>
 </td>
 </tr>
@@ -175,3 +176,15 @@ The Magical Harry Potter Api is a non-commercial project.
 ## Content
 
 Harry Potter and all associated names are copyright J.K. Rowling and Warner Bros.
+
+```
+
+```
+
+```
+
+```
+
+```
+
+```
