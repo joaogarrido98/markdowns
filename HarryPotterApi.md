@@ -158,11 +158,15 @@ Javascript will be used to show examples on how to use the API.
 ### Error Responses
 
 - **Code:** 404 Not Found
+
   Content: No request with that id found
+
   Found when id requested doesn't exist in database.
 
 - **Code:** 401 Bad Request
+
   Content: Id parameter has to be a number
+
   Found when id requested isn't in the correct format.
 
 ## Samples
@@ -176,15 +180,3 @@ The Magical Harry Potter Api is a non-commercial project.
 ## Content
 
 Harry Potter and all associated names are copyright J.K. Rowling and Warner Bros.
-
-```
-
-```
-
-```
-
-```
-
-```
-
-```
