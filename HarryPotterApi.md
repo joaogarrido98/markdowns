@@ -10,38 +10,163 @@ This project was made with the intention of learning how to create RESTApi's and
 
 This is a step by step of how to use the API
 
-The api consists of a number of endpoints that are called through any language.
+The api consists of a number of endpoints that are fetched through any language.
 
-I will use javascript to show how the data can be used.
+Javascript will be used to show examples on how to use the API.
 
 ## Endpoints
 
-All endpoints have the following pre url : TO BE INPUTED
+**All endpoints have the following pre url : TO BE INPUTED**
 
-`GET` **Characters**
+**All ID endpoints have the same response but on a specific ID**
 
-- /characters
-- /characters/{id}
+<table>
+<tr>
+<td> <b><code>GET</code></b> </td> <td> <b>Response</b> </td>
+</tr>
+<tr>
+<td> /character </td>
+<td>
 
-`GET` **Patronus**
+```json
+{
+  "id": 1,
+  "actor": "Daniel Radcliffe",
+  "alive": true,
+  "ancestry": "half-blood",
+  "dateOfBirth": {
+    "year": 1980,
+    "month": 7,
+    "day": 31
+  },
+  "gender": "male",
+  "hogwartsOccupation": "student",
+  "house": "Gryffindor",
+  "image": "",
+  "patronus": "stag",
+  "species": "human",
+  "name": "Harry Potter"
+}
+```
 
-- /patronus
-- /patronus/{id}
+</td>
+</tr>
+<tr>
+<td> /character/{id} </td>
+<td>
+    Same response as above
+</td>
+</tr>
+<tr>
+<td> /patronus </td>
+<td>
 
-`GET` **Spells**
+```json
+{
+  "patronus_id": 2,
+  "patronus_title": "stag"
+}
+```
 
-- /spells
-- /spells/{id}
+</td>
+</tr>
+<tr>
+<td> /patronus/{id} </td>
+<td>
+    Same response as above
+</td>
+</tr>
+<tr>
+<td> /spells </td>
+<td>
 
-`GET` **Houses**
+```json
+{
+  "spell_id": 2,
+  "spell_title": "accio"
+}
+```
 
-- /houses
-- /houses/{id}
+</td>
+</tr>
+<tr>
+<td> /spells/{id} </td>
+<td>
+    Same response as above
+</td>
+</tr>
+<tr>
+<td> /species </td>
+<td>
 
-`GET` **Ancestries**
+```json
+{
+  "species_id": 2,
+  "species_title": "werewolf"
+}
+```
 
-- /ancestries
-- /ancestries/{id}
+</td>
+</tr>
+<tr>
+<td> /species/{id} </td>
+<td>
+    Same response as above
+</td>
+</tr>
+<tr>
+<td> /houses </td>
+<td>
+
+```json
+{
+  "house_id": 4,
+  "house_title": "Slytherin"
+}
+```
+
+</td>
+</tr>
+<tr>
+<td> /houses/{id} </td>
+<td>
+    Same response as above
+</td>
+</tr>
+<tr>
+<td> /ancestries </td>
+<td>
+
+```json
+{
+  "ancestry_id": 3,
+  "ancestry_title": "half-blood"
+}
+```
+
+</td>
+</tr>
+<tr>
+<td> /ancestries/{id} </td>
+<td>
+    Same response as above
+</td>
+</tr>
+</table>
+
+### Error Responses
+
+- **Code:** 404 Not Found
+  Content: No request with that id found
+  Found when id requested doesn't exist in database.
+
+- **Code:** 401 Bad Request
+  Content: Id parameter has to be a number
+  Found when id requested isn't in the correct format.
+
+## Samples
+
+All samples will be showed using the character endpoints
 
 # Copyright
 
