@@ -157,13 +157,13 @@ Javascript will be used to show examples on how to use the API.
 
 ### Error Responses
 
-- **Code:** 404 Not Found
+- **Code: 404** Not Found
 
   Content: No request with that id found
 
   Found when id requested doesn't exist in database.
 
-- **Code:** 401 Bad Request
+- **Code: 401** Bad Request
 
   Content: Id parameter has to be a number
 
