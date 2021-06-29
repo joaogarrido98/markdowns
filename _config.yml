@@ -8,4 +8,7 @@ include:
   - tostas.md
   - OopJava.md
   - FpHaskell.md
-  - HarryPotterApi
+  - HarryPotterApi.md
+
+favicon:
+  source: favicon.png
