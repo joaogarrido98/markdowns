@@ -143,6 +143,7 @@ Javascript will be used to show examples on how to use the API.
   "ancestry_title": "half-blood"
 }
 <code>
+</pre>
 </td>
 </tr>
 <tr>
