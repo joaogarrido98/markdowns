@@ -22,7 +22,7 @@ Javascript will be used to show examples on how to use the API.
 
 <table>
 <tr>
-<td> <b><code>GET</code></b> </td> <td> <b>Response</b> </td>
+<td> <b><code>GET</code></b> </td> <td> <b>Response - JSON</b> </td>
 </tr>
 <tr>
 <td> /character </td>
@@ -172,6 +172,30 @@ Javascript will be used to show examples on how to use the API.
 ## Samples
 
 All samples will be showed using the character endpoints
+
+### Get All Character
+
+```javascript
+document.addEventListener("DOMContentLoaded", () => {
+  fetch("url/characters")
+    .then((response) => response.json())
+    .then((data) => {
+      console.log(data);
+    });
+});
+```
+
+### Get Specific Character
+
+```javascript
+document.addEventListener("DOMContentLoaded", () => {
+  fetch("url/characters/1")
+    .then((response) => response.json())
+    .then((data) => {
+      console.log(data);
+    });
+});
+```
 
 # Copyright
 
