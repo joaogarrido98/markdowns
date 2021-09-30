@@ -9,9 +9,10 @@ Each table has a **schema**.
 All elements in a column are of the same datatype.
 
 Example Table -> **Table name**
+
 | Attribute | Attribute | Attribute |
-| --- | --- | --- |
-| Data | Data | Data |
+| --------- | --------- | --------- |
+| Data      | Data      | Data      |
 
 All tables have:
 **Attributes** also called columns
