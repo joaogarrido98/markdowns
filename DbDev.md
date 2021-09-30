@@ -15,8 +15,9 @@ Example Table -> **Table name**
 | Data      | Data      | Data      |
 
 All tables have:
-**Attributes** also called columns
-**Rows** also called tuple
+
+- **Attributes** also called columns
+- **Rows** also called tuple
 
 ### SQL
 
