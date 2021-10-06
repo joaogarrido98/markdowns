@@ -167,3 +167,113 @@ CREATE TABLE Transaction(
 - DATETIME => Time and dates
 - XML => XML files
 - BLOB => Binary files
+
+### SQL DML
+
+> Data manipulation language
+
+- Insert
+- Delete
+- Update
+- Query
+
+#### Insert
+
+**Basic insert**
+
+```sql
+INSERT INTO Students VALUES('Name', birthday);
+```
+
+**Column Insert**
+
+```sql
+INSERT INTO Students(name) VALUES('Name');
+```
+
+#### Delete
+
+**Basic Delete**
+
+```sql
+DELETE FROM Students WHERE name = "Name";
+```
+
+```sql
+DELETE FROM Students WHERE name IN ('john', 'sebastian');
+```
+
+### Update
+
+**Basic Update**
+
+```sql
+UPDATE Students set name = "joao" WHERE name = "sebastian";
+```
+
+#### Conditions in WHERE clauses
+
+- **AND**
+  - `WHERE name = "oliver" AND day = 45`
+- **OR**
+  - `WHERE name = "oliver" OR day = 45`
+- **NOT**
+  - `WHERE NOT name = "oliver"`
+- **BETWEEN**
+  - `WHERE day BETWEEN 1 AND 10`
+- **LIKE**
+  - `WHERE name LIKE ‘O%r’`
+
+## QUERIES
+
+> Queries in SQL have required and optional forms
+
+**Required**
+
+- SELECT
+- FROM
+
+**Optional**
+
+- WHERE
+- GROUP BY
+- HAVING
+- ORDER BY
+
+### Types of query
+
+**Selects everything from table students**
+
+```sql
+SELECT * FROM Students;
+```
+
+**Selects specific column**
+
+```sql
+SELECT name FROM Students;
+```
+
+**DISTINCT - Selects all different values of the same column**
+
+```sql
+SELECT DISTINCT name FROM Students;
+```
+
+**AS - Renames a column selected**
+
+```sql
+SELECT name AS fullname FROM Students;
+```
+
+**Creating new columns**
+
+```sql
+SELECT name, price * number AS total_cost FROM Students;
+```
+
+**NATURAL JOIN**
+
+```sql
+SELECT * FROM Students NATURAL JOIN Grades;
+```
