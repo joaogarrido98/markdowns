@@ -4,6 +4,8 @@
 
 ## Swift ![Swift](./appDev/swift.png)
 
+---
+
 ### What is it?
 
 Swift is a **general-purpose**, **multi-paradigm**, compiled programming language developed by Apple Inc.
@@ -80,6 +82,39 @@ Examples:
 
 ---
 
+### For loops
+
+---
+
+#### Basic For loop
+
+```swift
+for i in 0..<10{
+  print(i)
+}
+```
+
+#### For loop in array
+
+```swift
+for element in arr{
+  print(element)
+}
+```
+
+#### For loop in dictionary
+
+```swift
+let usersAndModules = ["phil": “COMP228", "boris": "COMP109", "terry": "COMP329", "valli": "COMP318", “stuart" : "COMP39X"]
+
+for (user, module) in usersAndModules {
+  print(user, module)
+}
+
+```
+
+---
+
 ### Functions
 
 Functions are named code blocks. Functions can have arguments and return values and correspond to **procedures** or **methods** in other languages.
@@ -101,4 +136,59 @@ Example:
 func sum(a: Int, b: Int){
     return a + b;
 }
+```
+
+---
+
+### Classes and Structures
+
+#### Classes
+
+**Instance of a class are reference types**
+
+```swift
+class SomeClass{
+  init(){  }
+}
+```
+
+#### Structures
+
+**Instance of a class are value types**
+
+```swift
+struct SomeStructure{
+  init(){  }
+
+}
+```
+
+**Creating an instance of a class or struct:**
+
+```swift
+let classes = Class()
+let structures = Structure()
+```
+
+**Some rules**
+
+![Classes](./appDev/classes.JPG)
+
+### Enum
+
+> An object type whose instances represent distinct predefined alternative values
+
+```swift
+enum StarWarsRobot{
+  case r2_d2 = "R2-D2"
+  case c_3po
+  case bb_8
+  case k_2so
+}
+
+let type = StarWarsRobot.r2_d2
+
+func handleRobot(_ : StarWarsRobot) {}
+
+handleRobot((.bb_8))
 ```

@@ -51,7 +51,11 @@ The details of each use case should also be documented by use case description
   - Geo location
   - Robotic arm
 
+---
+
 ## Software Processes
+
+---
 
 #### What is a Process?
 
@@ -75,6 +79,7 @@ Coherent sets of activities for software systems
 - **Designing**
 - **Implementing**
 - **Testing**
+- **Evolution**
 
 #### Software Process Models
 
@@ -130,7 +135,95 @@ Lightweight approach to software development
 - **Lower risk of overall project failure**.
 - **The highest priority system services** tend to receive the most testing.
 
+---
+
 ## Requirements
+
+---
 
 - **Functional** - What the system does.
 - **Non-Functional** - Constrains on how the functions are provided
+
+### Objectives
+
+- To introduce the concepts of **user and system requirements**
+- To describe **functional / non-functional requirements**
+- To explain **two techniques** for describing system requirements
+
+### Requirements engineering
+
+Is the process of establishing :
+
+- The **services** that the customer requires from a system
+- The **constraints** under which it operates and is developed
+
+**Why do we need requirements?**
+
+To ensure software solution correctly solves a particular problem we must:
+
+- Fully **understand** the problem that needs to be solved
+- Discover **why** the problem needs to be solved
+- Determine **who**
+
+**What is a requirement?**
+
+It may range from a **high-level abstract statement of a service** or of a **system constraint to be detailed mathematical** functional specification
+
+### Types
+
+- **User requirements**
+- **System requirements**
+- **Software specification**
+
+#### Functional Requirements
+
+> Statements of services the system should provide, how the system should react to particular inputs and how the system should behave in particular situations
+
+**Example**
+
+- All users will access the system using a user id and a password
+
+#### Non-functional Requirements
+
+> Constraints on the services or functions offered by the system such as timing constraints, constraints on the development process, standards.
+
+Define system properties and constraints:
+
+- Reliability
+- Response time
+- Storage requirements.
+
+Process requirements may also be specified, mandating a particular CASE system, programming language or development method.
+
+**Classifications**
+
+- Product requirements
+  - Requirements which specify that the delivered product must behave in a particular way.
+- Organisational requirements
+  - Requirements which are ......
+- External requirements
+  - Requirements which arise from factors which are external to the system and its development process e.g. interoperability requirements, legislative requirements
+
+Example:
+
+- All encryption should use the advanced encryption standard
+- The system development process and deliverable documents shall conform to the process
+- The system shall not disclose any personal information about customers apart from their name.
+- The system shall not disclose any personal information about customers apart from their name and reference number to the operators of the system
+- The system should respond to a user’s request for information in less than 0.1 seconds during “peak-time” and 0.01 seconds during “normal time”.
+
+##### Domain Requirements
+
+> Requirements that come from the application domain of the system and that reflect characteristics of the domain.
+
+**Requirements Imprecision**
+
+Problems arise when requirements are not precisely stated.
+
+**Requirements Completeness and Consistency**
+
+They should include description of all facilities required and there should be no contradictions in the description.
+
+#### Requirements Measures
+
+![Requirements](./softEng/requirements.JPG)
